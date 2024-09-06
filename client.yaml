@@ -1,0 +1,15 @@
+runtime: python39
+service: default
+
+handlers:
+  # Serve CSS, JS, and image files from the build folder
+  - url: /(.*\.(css|js|gif|png|jpg|jpeg|svg|ico|json))$
+    static_files: build/\1
+    upload: build/(.*\.(css|js|gif|png|jpg|jpeg|svg|ico|json))$
+    secure: always
+
+  # Serve index.html for all other requests to enable client-side routing
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+    secure: always

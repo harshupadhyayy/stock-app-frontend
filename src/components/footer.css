@@ -1,0 +1,14 @@
+.footer {
+    /* grid-row-start: auto;
+    grid-row-end: span 1; */
+    display: flex;
+    background-color: #e1e1e1;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

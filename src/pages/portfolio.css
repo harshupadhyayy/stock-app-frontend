@@ -1,0 +1,15 @@
+.portfolio .mycard { 
+    padding: 0;
+}
+
+.portfolio .card-text {
+    margin: 0;
+}
+
+.portfolio .row {
+    margin: 0;
+}
+
+.portfolio .row > * {
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: "Calibri", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.secondary-content {
+  flex: 1;
+}

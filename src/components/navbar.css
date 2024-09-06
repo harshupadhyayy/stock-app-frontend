@@ -1,0 +1,17 @@
+.nav-link.selected {
+    border: 1px solid white;
+    border-radius: 10px;
+    color: #9d9ada;
+  }
+
+  .nav-item {
+    padding-left: 30px;
+  }
+
+  .nav-item > a {
+    padding-left: 20px;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
